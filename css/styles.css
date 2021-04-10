@@ -52,4 +52,46 @@ p,a,h4{
     padding-left: 1cm;
 }
 
+.form{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding-bottom: 3%;
+background-color: rgb(245, 214, 111);
+}
+
+.inputs{
+  margin: 5%;
+}
+
+.submit{
+  margin: 2%;
+  align-self: flex-start;
+  
+}
+
+.submit input{
+  color: white;
+  background-color: rgb(238, 163, 0);
+  border-width: 0 ;
+}
+
+.header{
+  padding-left: 5%;
+  margin: 0;
+}
+
+form{
+  margin-top: 0;
+}
+.text{
+  text-align: left;
+  font-weight: bold;
+  font-size: 16pt;
+}
+.text p{
+  padding: 0;
+}
+
 
